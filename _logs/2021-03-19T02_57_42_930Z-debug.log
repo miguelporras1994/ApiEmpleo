@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-D',
+1 verbose cli   'nodemon',
+1 verbose cli   'eslint',
+1 verbose cli   'eslint-config-pretter',
+1 verbose cli   'eslint-plugin-prettier',
+1 verbose cli   'prettier'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v12.18.2
+4 verbose npm-session 3428605776216b73
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-prettier 1225ms
+8 http fetch GET 404 https://registry.npmjs.org/eslint-config-pretter 1369ms
+9 http fetch GET 304 https://registry.npmjs.org/nodemon 1817ms (from cache)
+10 http fetch GET 200 https://registry.npmjs.org/prettier 1806ms
+11 silly pacote tag manifest for nodemon@latest fetched in 2013ms
+12 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.1.tgz 629ms
+13 silly pacote tag manifest for eslint-plugin-prettier@latest fetched in 1974ms
+14 http fetch GET 404 https://registry.npmjs.org/eslint-config-pretter 796ms
+15 silly fetchPackageMetaData error for eslint-config-pretter@latest 404 Not Found - GET https://registry.npmjs.org/eslint-config-pretter - Not found
+16 http fetch GET 200 https://registry.npmjs.org/eslint 2456ms
+17 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-7.22.0.tgz 2784ms
+18 silly pacote tag manifest for eslint@latest fetched in 5431ms
+19 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-2.2.1.tgz 10532ms
+20 silly pacote tag manifest for prettier@latest fetched in 12418ms
+21 timing stage:rollbackFailedOptional Completed in 2ms
+22 timing stage:runTopLevelLifecycles Completed in 14021ms
+23 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/eslint-config-pretter - Not found
+23 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+23 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+24 verbose statusCode 404
+25 verbose pkgid eslint-config-pretter@latest
+26 verbose cwd /mnt/d/ApiEmpleo
+27 verbose Linux 4.4.0-18362-Microsoft
+28 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-D" "nodemon" "eslint" "eslint-config-pretter" "eslint-plugin-prettier" "prettier"
+29 verbose node v12.18.2
+30 verbose npm  v6.14.8
+31 error code E404
+32 error 404 Not Found - GET https://registry.npmjs.org/eslint-config-pretter - Not found
+33 error 404
+34 error 404 'eslint-config-pretter@latest' is not in the npm registry.
+35 error 404 You should bug the author to publish it (or use the name yourself!)
+36 error 404 Note that you can also install from a
+37 error 404 tarball, folder, http url, or git url.
+38 verbose exit [ 1, true ]

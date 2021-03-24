@@ -1,0 +1,15 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.14.8
+3 info using node@v12.18.2
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle ApiEmpleo@1.0.0~predev: ApiEmpleo@1.0.0
+6 info lifecycle ApiEmpleo@1.0.0~dev: ApiEmpleo@1.0.0
+7 verbose lifecycle ApiEmpleo@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle ApiEmpleo@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/mnt/d/ApiEmpleo/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/ManagementStudio/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/gradle/bin:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Miguel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Miguel/.dotnet/tools:/mnt/c/Users/Miguel/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Miguel/.dotnet/tools:/mnt/c/Users/Miguel/AppData/Roaming/npm
+9 verbose lifecycle ApiEmpleo@1.0.0~dev: CWD: /mnt/d/ApiEmpleo
+10 silly lifecycle ApiEmpleo@1.0.0~dev: Args: [ '-c', 'set DEBUG=app:*&& nodemon index' ]
+11 timing npm Completed in 371947ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
