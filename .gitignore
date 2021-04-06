@@ -3,3 +3,7 @@ node_modules
 _cacache/
 package-lock.json
 anonymous-cli-metrics.json
+
+_cacache/
+anonymous-cli-metrics.json
+node-sass/

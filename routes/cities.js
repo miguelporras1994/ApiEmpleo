@@ -21,6 +21,24 @@ function citiesApi(app) {
   });
 
 
+  router.get(
+    '/:countryId',
+    async function(req, res, next) {
+      const { countryId } = req.params;
+      try {
+        const citie = await citiesService.getCitie({ countryId });
+
+        res.status(200).json({
+          data: citie,
+          message: 'movie retrieved'
+        });
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
+
+
 }
 
 module.exports =  citiesApi;

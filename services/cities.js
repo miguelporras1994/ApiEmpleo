@@ -9,6 +9,12 @@ class CitiesService {
       const cities =  await this.sqlSeverLib.getAll(this.collection);
       return cities || [];
     }
+
+    async getCitie(key) {
+      const cities =  await this.sqlSeverLib.getId(this.collection, key);
+      return cities || [];
+    }
+  
   
 }
 

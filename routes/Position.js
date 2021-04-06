@@ -10,7 +10,7 @@ function positionApi(app) {
 
   router.get('/', async function(req, res, next) {
     try {
-      const Position = await positionService.getPosition();
+      const Position = await positionService.getPositions();
 
       res.status(200).json({
         data: Position,
@@ -20,6 +20,24 @@ function positionApi(app) {
       next(err);
     }
   });
+
+
+  router.get(
+    '/:position',
+    async function(req, res, next) {
+      const { position } = req.params;
+      try {
+        const citie = await  positionService.getPosition(position);
+
+        res.status(200).json({
+          data: citie,
+          message: 'list position of ' + position
+        });
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
 
 }

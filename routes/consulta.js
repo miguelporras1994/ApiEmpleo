@@ -3,13 +3,14 @@ const  ConsultasService = require('../services/consulta');
 
 function ConsultasApi(app) {
   const router = express.Router();
-  app.use('/api/Consulta', router);
+  app.use('/api/consulta', router);
    
   const  consultasService = new ConsultasService();
 
-  router.get('/', async function(req, res, next) {
+  router.post('/', async function(req, res, next) {
     try {
-      const Consultas = await consultasService.getConsultas();
+      
+      const Consultas = await consultasService.getConsultas(req.body);
 
       res.status(200).json({
         data: Consultas,

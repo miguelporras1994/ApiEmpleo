@@ -5,9 +5,16 @@ class PositionService {
     this.collection = 'PositionStructures';
     this.sqlSeverLib = new SqlSeverLib();
   }
-    async getPosition() {
+    async getPositions() {
       const Position =  await this.sqlSeverLib.getAll(this.collection);
       return Position || [];
+    }
+
+
+    async getPosition(key) {
+      
+      const   Position =  await this.sqlSeverLib.getId(this.collection, key , 'IdWorkArea');
+      return  Position || [];
     }
   
 }
